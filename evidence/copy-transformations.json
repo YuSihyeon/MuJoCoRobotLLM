@@ -1,0 +1,20 @@
+{
+  "text_encoding": "UTF-8 without BOM, LF newlines. Byte hashes may differ after normalization.",
+  "redactions": [
+    {
+      "file": "evidence/dependency-snapshots/urlab-bridge-pyproject.toml",
+      "secret_string_patterns": 0,
+      "email_fields": 1,
+      "configuration_credential_fields": 0,
+      "change": "Sensitive value replaced by placeholder; code behavior otherwise preserved."
+    },
+    {
+      "file": "evidence/unreal-project-skeleton/Config/DefaultEngine.ini",
+      "secret_string_patterns": 0,
+      "email_fields": 0,
+      "configuration_credential_fields": 1,
+      "change": "Sensitive value replaced by placeholder; code behavior otherwise preserved."
+    }
+  ],
+  "external_dependencies": "Not copied: UnrealRoboticsLab source, urlab_bridge source, MuJoCo Menagerie models/meshes, Unreal imported binaries, environment/cache directories."
+}

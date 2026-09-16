@@ -1,0 +1,17 @@
+{
+  "run_id": "20260716_015349_456887a4",
+  "schema_version": "1.0",
+  "generator_version": "text2mujoco-0.1.0",
+  "input_prompt": null,
+  "model_name": null,
+  "seed": 7,
+  "mode": "headless",
+  "created_at_utc": "2026-07-16T01:53:49.473793+00:00",
+  "files": {
+    "scene_spec": "artifacts\\20260716_015349_456887a4\\scene_spec.json",
+    "scene_xml": "artifacts\\20260716_015349_456887a4\\scene.xml",
+    "metrics": "artifacts\\20260716_015349_456887a4\\metrics.json",
+    "manifest": "artifacts\\20260716_015349_456887a4\\manifest.json",
+    "run_log": "artifacts\\20260716_015349_456887a4\\run.log"
+  }
+}

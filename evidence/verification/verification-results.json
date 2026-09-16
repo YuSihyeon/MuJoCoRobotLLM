@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-16",
+  "runtime": "Original text2mujoco venv; Python 3.13.10, missing runtime/test dependencies",
+  "method": "Copied archive source, no API key or network, original source unchanged",
+  "checks": [
+    {
+      "command": "runtime package check",
+      "exit_code": 1,
+      "output": "3.13.10 (tags/v3.13.10:4fd8843, Dec  2 2025, 15:08:18) [MSC v.1944 64 bit (AMD64)]\nTraceback (most recent call last):\n  File \"<LOCAL_PATH>\", line 407, in from_name\n    return next(iter(cls.discover(name=name)))\nStopIteration\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sys,importlib.metadata as m; print(sys.version); print({n:m.version(n) for n in [\"mujoco\",\"numpy\",\"pydantic\",\"openai\",\"pytest\",\"ruff\"]})\n                                                                     ~~~~~~~~~^^^\n  File \"<LOCAL_PATH>\", line 987, in version\n    return distribution(distribution_name).version\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_PATH>\", line 960, in distribution\n    return Distribution.from_name(distribution_name)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_PATH>\", line 409, in from_name\n    raise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for mujoco\n"
+    },
+    {
+      "command": "pytest -q -p no:cacheprovider",
+      "exit_code": 1,
+      "output": "<SOURCE_VENV_PYTHON>: No module named pytest\n"
+    },
+    {
+      "command": "ruff check .",
+      "exit_code": 1,
+      "output": "<SOURCE_VENV_PYTHON>: No module named ruff\n"
+    },
+    {
+      "command": "ruff format --check .",
+      "exit_code": 1,
+      "output": "<SOURCE_VENV_PYTHON>: No module named ruff\n"
+    },
+    {
+      "command": "text2mujoco baseline --headless",
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"<LOCAL_PATH>\", line 5, in <module>\n    from text2mujoco.cli import main\n  File \"<LOCAL_PATH>\", line 14, in <module>\n    from text2mujoco.llm_client import OpenAISceneGenerator\n  File \"<LOCAL_PATH>\", line 8, in <module>\n    from text2mujoco.schemas import SceneSpec\n  File \"<LOCAL_PATH>\", line 10, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+    },
+    {
+      "command": "text2mujoco arm-baseline --headless",
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"<LOCAL_PATH>\", line 5, in <module>\n    from text2mujoco.cli import main\n  File \"<LOCAL_PATH>\", line 14, in <module>\n    from text2mujoco.llm_client import OpenAISceneGenerator\n  File \"<LOCAL_PATH>\", line 8, in <module>\n    from text2mujoco.schemas import SceneSpec\n  File \"<LOCAL_PATH>\", line 10, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+    }
+  ]
+}

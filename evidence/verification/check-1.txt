@@ -1,0 +1,21 @@
+3.13.10 (tags/v3.13.10:4fd8843, Dec  2 2025, 15:08:18) [MSC v.1944 64 bit (AMD64)]
+Traceback (most recent call last):
+  File "<LOCAL_PATH>", line 407, in from_name
+    return next(iter(cls.discover(name=name)))
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys,importlib.metadata as m; print(sys.version); print({n:m.version(n) for n in ["mujoco","numpy","pydantic","openai","pytest","ruff"]})
+                                                                     ~~~~~~~~~^^^
+  File "<LOCAL_PATH>", line 987, in version
+    return distribution(distribution_name).version
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_PATH>", line 960, in distribution
+    return Distribution.from_name(distribution_name)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_PATH>", line 409, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for mujoco

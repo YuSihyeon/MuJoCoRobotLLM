@@ -1,0 +1,18 @@
+arm spec generated
+arm MJCF built
+arm model compiled
+assisted grasp: False
+constraint grasp: False
+contact-only grasp: True
+arm simulation started
+arm state changed: DESCEND_TO_GRASP
+arm state changed: CLOSE_GRIPPER
+arm state changed: LIFT_OBJECT
+arm state changed: MOVE_ABOVE_TARGET
+arm state changed: DESCEND_TO_PLACE
+arm state changed: OPEN_GRIPPER
+object release bottom height: 0.11948
+arm state changed: RETREAT
+arm state changed: SUCCESS
+arm success
+arm artifacts saved

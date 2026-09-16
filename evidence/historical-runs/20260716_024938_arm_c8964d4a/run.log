@@ -1,0 +1,18 @@
+arm spec generated
+arm MJCF built
+arm model compiled
+assisted grasp: False
+constraint grasp: True
+arm simulation started
+arm state changed: DESCEND_TO_GRASP
+arm state changed: CLOSE_GRIPPER
+arm state changed: LIFT_OBJECT
+grasp constraint enabled
+arm state changed: MOVE_ABOVE_TARGET
+arm state changed: DESCEND_TO_PLACE
+arm state changed: OPEN_GRIPPER
+grasp constraint disabled
+arm state changed: RETREAT
+arm state changed: SUCCESS
+arm success
+arm artifacts saved

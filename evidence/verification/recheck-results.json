@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-16",
+  "runtime": "Existing urlab_bridge environment: 3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]; MuJoCo 3.10.0, NumPy 2.4.6, Pydantic 2.13.4, OpenAI 2.46.0",
+  "method": "Copied source only; real API disabled; no original files modified; runs written within archive",
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "text2mujoco",
+        "baseline",
+        "--headless"
+      ],
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"<LOCAL_PATH>\", line 5, in <module>\n    from text2mujoco.cli import main\n  File \"<LOCAL_PATH>\", line 17, in <module>\n    from text2mujoco.simulation import run_push_simulation\n  File \"<LOCAL_PATH>\", line 12, in <module>\n    from text2mujoco.controller import PushController\n  File \"<LOCAL_PATH>\", line 13\n    type Observation = dict[str, list[float]]\n         ^^^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "command": [
+        "-m",
+        "text2mujoco",
+        "arm-baseline",
+        "--headless"
+      ],
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"<LOCAL_PATH>\", line 5, in <module>\n    from text2mujoco.cli import main\n  File \"<LOCAL_PATH>\", line 17, in <module>\n    from text2mujoco.simulation import run_push_simulation\n  File \"<LOCAL_PATH>\", line 12, in <module>\n    from text2mujoco.controller import PushController\n  File \"<LOCAL_PATH>\", line 13\n    type Observation = dict[str, list[float]]\n         ^^^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    }
+  ],
+  "ast_parse_python_files": 43,
+  "pytest_ruff": "Not run: missing from the existing environments; no dependencies installed."
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mujoco model="diffbot">
+
+  <compiler angle="degree" autolimits="true"/>
+
+  <option
+    timestep="0.002"
+    gravity="0 0 -9.81"
+    integrator="implicitfast"/>
+
+  <default>
+    <joint
+      damping="0.15"
+      armature="0.01"/>
+
+    <geom
+      condim="3"
+      friction="1.2 0.02 0.001"/>
+  </default>
+
+  <worldbody>
+
+    <!-- MuJoCo가 사용하는 바닥 -->
+    <geom
+      name="ground"
+      type="plane"
+      pos="0 0 0"
+      size="10 10 0.1"
+      rgba="0.20 0.25 0.30 1"/>
+
+    <!-- 로봇 본체 -->
+    <body
+      name="base"
+      pos="0 0 0.20">
+
+      <!-- 로봇이 공간 안에서 자유롭게 이동할 수 있게 하는 관절 -->
+      <freejoint name="base_free"/>
+
+      <!-- 파란색 차체 -->
+      <geom
+        name="chassis"
+        type="box"
+        size="0.25 0.16 0.06"
+        mass="5.0"
+        rgba="0.10 0.45 0.80 1"/>
+
+      <!-- 뒤쪽 보조 바퀴 역할을 하는 구형 캐스터 -->
+      <geom
+        name="caster"
+        type="sphere"
+        pos="-0.20 0 -0.15"
+        size="0.05"
+        mass="0.10"
+        friction="0.20 0.01 0.001"
+        rgba="0.75 0.75 0.75 1"/>
+
+      <!-- 왼쪽 바퀴 -->
+      <body
+        name="left_wheel"
+        pos="0 0.19 -0.11">
+
+        <joint
+          name="left_wheel_joint"
+          type="hinge"
+          axis="0 1 0"
+          limited="false"/>
+
+        <geom
+          name="left_wheel_geom"
+          type="cylinder"
+          size="0.09 0.03"
+          quat="0.7071068 0.7071068 0 0"
+          mass="0.50"
+          friction="1.50 0.02 0.001"
+          rgba="0.05 0.05 0.05 1"/>
+      </body>
+
+      <!-- 오른쪽 바퀴 -->
+      <body
+        name="right_wheel"
+        pos="0 -0.19 -0.11">
+
+        <joint
+          name="right_wheel_joint"
+          type="hinge"
+          axis="0 1 0"
+          limited="false"/>
+
+        <geom
+          name="right_wheel_geom"
+          type="cylinder"
+          size="0.09 0.03"
+          quat="0.7071068 0.7071068 0 0"
+          mass="0.50"
+          friction="1.50 0.02 0.001"
+          rgba="0.05 0.05 0.05 1"/>
+      </body>
+
+    </body>
+  </worldbody>
+
+  <!-- 바퀴 속도 제어기 -->
+  <actuator>
+    <velocity
+      name="left_wheel_velocity"
+      joint="left_wheel_joint"
+      kv="2.0"
+      ctrllimited="true"
+      ctrlrange="-12 12"/>
+
+    <velocity
+      name="right_wheel_velocity"
+      joint="right_wheel_joint"
+      kv="2.0"
+      ctrllimited="true"
+      ctrlrange="-12 12"/>
+  </actuator>
+
+  <!-- 나중에 Python에서 읽을 센서 -->
+  <sensor>
+    <jointpos
+      name="left_wheel_position"
+      joint="left_wheel_joint"/>
+
+    <jointpos
+      name="right_wheel_position"
+      joint="right_wheel_joint"/>
+
+    <jointvel
+      name="left_wheel_speed"
+      joint="left_wheel_joint"/>
+
+    <jointvel
+      name="right_wheel_speed"
+      joint="right_wheel_joint"/>
+  </sensor>
+
+</mujoco>

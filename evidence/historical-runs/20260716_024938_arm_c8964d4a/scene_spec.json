@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "seed": 11,
+  "task_description": "Pick up the red cube with a simple robot arm and place it on the green target.",
+  "table_size": {
+    "x": 0.9,
+    "y": 0.7,
+    "z": 0.08
+  },
+  "table_height": 0.08,
+  "object_position": {
+    "x": 0.18,
+    "y": -0.12,
+    "z": 0.13
+  },
+  "object_size": {
+    "x": 0.07,
+    "y": 0.07,
+    "z": 0.07
+  },
+  "object_mass": 0.12,
+  "target_position": {
+    "x": 0.22,
+    "y": 0.18,
+    "z": 0.08
+  },
+  "target_radius": 0.08,
+  "floor_friction": 0.8,
+  "timestep": 0.002,
+  "simulation_duration": 8.0,
+  "robot": {
+    "base_position": {
+      "x": -0.35,
+      "y": 0.0,
+      "z": 0.08
+    },
+    "shoulder_height": 0.18,
+    "upper_arm_length": 0.34,
+    "forearm_length": 0.3,
+    "wrist_length": 0.08,
+    "gripper_open_width": 0.11,
+    "gripper_closed_width": 0.035,
+    "max_joint_speed": 2.2,
+    "max_force": 80.0
+  },
+  "controller": {
+    "approach_height": 0.32,
+    "grasp_height_offset": 0.035,
+    "lift_height": 0.42,
+    "state_hold_time": 0.45,
+    "gripper_close_time": 0.35,
+    "place_settle_time": 0.35
+  },
+  "object_color": {
+    "r": 0.88,
+    "g": 0.18,
+    "b": 0.12,
+    "a": 1.0
+  },
+  "target_color": {
+    "r": 0.1,
+    "g": 0.68,
+    "b": 0.24,
+    "a": 0.45
+  },
+  "arm_color": {
+    "r": 0.18,
+    "g": 0.28,
+    "b": 0.78,
+    "a": 1.0
+  }
+}

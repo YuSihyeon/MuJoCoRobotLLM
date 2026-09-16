@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<LOCAL_PATH>", line 5, in <module>
+    from text2mujoco.cli import main
+  File "<LOCAL_PATH>", line 14, in <module>
+    from text2mujoco.llm_client import OpenAISceneGenerator
+  File "<LOCAL_PATH>", line 8, in <module>
+    from text2mujoco.schemas import SceneSpec
+  File "<LOCAL_PATH>", line 10, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

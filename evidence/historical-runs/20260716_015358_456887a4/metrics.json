@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "terminated": true,
+  "truncated": false,
+  "termination_reason": "success",
+  "simulation_time": 0.4920000000000004,
+  "wall_clock_time": 0.007485000001906883,
+  "final_box_target_distance": 0.0675247114285609,
+  "minimum_box_target_distance": 0.0014716831044073728,
+  "control_steps": 31,
+  "physics_steps": 246,
+  "maximum_speed": 2.0395881937836258,
+  "stability_status": "stable"
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<LOCAL_PATH>", line 5, in <module>
+    from text2mujoco.cli import main
+  File "<LOCAL_PATH>", line 17, in <module>
+    from text2mujoco.simulation import run_push_simulation
+  File "<LOCAL_PATH>", line 12, in <module>
+    from text2mujoco.controller import PushController
+  File "<LOCAL_PATH>", line 13
+    type Observation = dict[str, list[float]]
+         ^^^^^^^^^^^
+SyntaxError: invalid syntax

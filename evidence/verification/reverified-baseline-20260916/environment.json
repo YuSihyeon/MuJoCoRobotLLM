@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-16",
+  "python": "3.13.10",
+  "packages": {
+    "mujoco": "3.10.0",
+    "numpy": "2.4.2",
+    "pydantic": "2.13.4",
+    "openai": "2.45.0"
+  },
+  "command": "python -m text2mujoco arm-baseline --headless",
+  "code": "archive evidence/text2mujoco/src via PYTHONPATH",
+  "new_packages_installed": false,
+  "llm_api_called": false,
+  "scope": "one deterministic contact-only arm baseline; no Unreal or full test suite run"
+}

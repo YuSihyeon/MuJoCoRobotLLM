@@ -1,0 +1,9 @@
+# Original machine paths are retained only for the local research inventory.
+source-map.json
+# Any future local reproduction environment and temporary files stay private.
+.venv/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+verification/pytest-temp/

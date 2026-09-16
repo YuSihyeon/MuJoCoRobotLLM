@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "terminated": true,
+  "truncated": false,
+  "termination_reason": "success",
+  "simulation_time": 6.999999999999451,
+  "wall_clock_time": 0.18364830000064103,
+  "final_object_target_distance": 0.0009982843976619044,
+  "minimum_object_target_distance": 0.0009787599907043595,
+  "maximum_object_height": 0.31990539346557173,
+  "release_object_height": 0.13811145232519514,
+  "release_object_bottom_height": 0.10311145232519514,
+  "minimum_object_bottom_height": 0.07980279572891037,
+  "physics_steps": 3500,
+  "controller_state": "SUCCESS",
+  "assisted_grasp": false,
+  "constraint_grasp": false,
+  "stability_status": "stable"
+}

@@ -1,0 +1,435 @@
+[
+  {
+    "run_id": "20260716_015152_e8e8c4de",
+    "previous_run_id": null,
+    "changes": []
+  },
+  {
+    "run_id": "20260716_015349_456887a4",
+    "previous_run_id": "20260716_015152_e8e8c4de",
+    "changes": [
+      {
+        "field": "controller.max_force",
+        "before": 90.0,
+        "after": 12.0
+      },
+      {
+        "field": "controller.maximum_speed",
+        "before": 4.0,
+        "after": 8.0
+      },
+      {
+        "field": "controller.push_target_overshoot",
+        "before": 0.24,
+        "after": 0.07
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_015358_456887a4",
+    "previous_run_id": "20260716_015349_456887a4",
+    "changes": []
+  },
+  {
+    "run_id": "20260716_015517_456887a4",
+    "previous_run_id": "20260716_015358_456887a4",
+    "changes": []
+  },
+  {
+    "run_id": "20260716_015526_456887a4",
+    "previous_run_id": "20260716_015517_456887a4",
+    "changes": []
+  },
+  {
+    "run_id": "20260716_023036_arm_d49f06e0",
+    "previous_run_id": null,
+    "changes": []
+  },
+  {
+    "run_id": "20260716_023524_arm_d49f06e0",
+    "previous_run_id": "20260716_023036_arm_d49f06e0",
+    "changes": []
+  },
+  {
+    "run_id": "20260716_024938_arm_c8964d4a",
+    "previous_run_id": "20260716_023524_arm_d49f06e0",
+    "changes": [
+      {
+        "field": "controller.approach_height",
+        "before": 0.22,
+        "after": 0.32
+      },
+      {
+        "field": "controller.gripper_close_time",
+        "before": 0.12,
+        "after": 0.35
+      },
+      {
+        "field": "controller.lift_height",
+        "before": 0.34,
+        "after": 0.42
+      },
+      {
+        "field": "controller.place_settle_time",
+        "before": 0.09,
+        "after": 0.35
+      },
+      {
+        "field": "controller.state_hold_time",
+        "before": 0.09,
+        "after": 0.45
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_043519_arm_18e9bcf8",
+    "previous_run_id": "20260716_024938_arm_c8964d4a",
+    "changes": [
+      {
+        "field": "controller.gripper_close_time",
+        "before": 0.35,
+        "after": 0.7
+      },
+      {
+        "field": "controller.place_settle_time",
+        "before": 0.35,
+        "after": 0.55
+      },
+      {
+        "field": "controller.state_hold_time",
+        "before": 0.45,
+        "after": 0.7
+      },
+      {
+        "field": "robot.max_force",
+        "before": 80.0,
+        "after": 140.0
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_044136_arm_9525ab67",
+    "previous_run_id": "20260716_043519_arm_18e9bcf8",
+    "changes": [
+      {
+        "field": "controller.release_drop_height",
+        "before": null,
+        "after": 0.035
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_050203_arm_6d8df509",
+    "previous_run_id": "20260716_044136_arm_9525ab67",
+    "changes": [
+      {
+        "field": "controller.gripper_close_time",
+        "before": 0.7,
+        "after": 0.85
+      },
+      {
+        "field": "controller.place_settle_time",
+        "before": 0.55,
+        "after": 0.7
+      },
+      {
+        "field": "controller.state_hold_time",
+        "before": 0.7,
+        "after": 0.95
+      },
+      {
+        "field": "object_mass",
+        "before": 0.12,
+        "after": 0.08
+      },
+      {
+        "field": "task_description",
+        "before": "Pick up the red cube with a simple robot arm and place it on the green target.",
+        "after": "Move the red cube to the green target slowly and drop it from slightly above."
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_050934_arm_bcf50c67",
+    "previous_run_id": "20260716_050203_arm_6d8df509",
+    "changes": [
+      {
+        "field": "object_mass",
+        "before": 0.08,
+        "after": 0.12
+      },
+      {
+        "field": "target_position.x",
+        "before": 0.22,
+        "after": 0.25
+      },
+      {
+        "field": "target_position.y",
+        "before": 0.18,
+        "after": 0.21
+      },
+      {
+        "field": "task_description",
+        "before": "Move the red cube to the green target slowly and drop it from slightly above.",
+        "after": "빨간 상자를 오른쪽 뒤로 천천히 옮기고 조금 위에서 떨어뜨려."
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_051035_arm_bcf50c67",
+    "previous_run_id": "20260716_050934_arm_bcf50c67",
+    "changes": []
+  },
+  {
+    "run_id": "20260716_051206_arm_9ec5ac69",
+    "previous_run_id": "20260716_051035_arm_bcf50c67",
+    "changes": [
+      {
+        "field": "controller.gripper_close_time",
+        "before": 0.85,
+        "after": 0.7
+      },
+      {
+        "field": "controller.place_settle_time",
+        "before": 0.7,
+        "after": 0.55
+      },
+      {
+        "field": "controller.state_hold_time",
+        "before": 0.95,
+        "after": 0.7
+      },
+      {
+        "field": "target_position.x",
+        "before": 0.25,
+        "after": 0.22
+      },
+      {
+        "field": "target_position.y",
+        "before": 0.21,
+        "after": 0.18
+      },
+      {
+        "field": "task_description",
+        "before": "빨간 상자를 오른쪽 뒤로 천천히 옮기고 조금 위에서 떨어뜨려.",
+        "after": "빨간 상자를 들어올렸다가 그대로 다시 내려놓아줘"
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_054235_arm_108be4f5",
+    "previous_run_id": "20260716_051206_arm_9ec5ac69",
+    "changes": [
+      {
+        "field": "controller.gripper_close_time",
+        "before": 0.7,
+        "after": 0.85
+      },
+      {
+        "field": "controller.place_settle_time",
+        "before": 0.55,
+        "after": 0.7
+      },
+      {
+        "field": "controller.state_hold_time",
+        "before": 0.7,
+        "after": 0.95
+      },
+      {
+        "field": "floor_friction",
+        "before": 0.8,
+        "after": 0.45
+      },
+      {
+        "field": "object_color.b",
+        "before": 0.12,
+        "after": 0.9
+      },
+      {
+        "field": "object_color.g",
+        "before": 0.18,
+        "after": 0.25
+      },
+      {
+        "field": "object_color.r",
+        "before": 0.88,
+        "after": 0.05
+      },
+      {
+        "field": "object_shape",
+        "before": null,
+        "after": "cylinder"
+      },
+      {
+        "field": "object_size.x",
+        "before": 0.07,
+        "after": 0.08
+      },
+      {
+        "field": "object_size.y",
+        "before": 0.07,
+        "after": 0.08
+      },
+      {
+        "field": "object_size.z",
+        "before": 0.07,
+        "after": 0.1
+      },
+      {
+        "field": "static_props",
+        "before": null,
+        "after": [
+          {
+            "name": "shelf",
+            "shape": "box",
+            "position": {
+              "x": 0.0,
+              "y": 0.28,
+              "z": 0.105
+            },
+            "size": {
+              "x": 0.22,
+              "y": 0.06,
+              "z": 0.05
+            },
+            "color": {
+              "r": 0.4,
+              "g": 0.42,
+              "b": 0.48,
+              "a": 1.0
+            },
+            "collision": true
+          }
+        ]
+      },
+      {
+        "field": "target_position.x",
+        "before": 0.22,
+        "after": 0.25
+      },
+      {
+        "field": "target_position.y",
+        "before": 0.18,
+        "after": 0.2
+      },
+      {
+        "field": "task_description",
+        "before": "빨간 상자를 들어올렸다가 그대로 다시 내려놓아줘",
+        "after": "창고 안에서 파란 원통을 오른쪽 뒤로 천천히 옮기고 미끄러운 바닥에서 조금 위에서 떨어뜨려. 옆에는 낮은 선반을 둬."
+      }
+    ]
+  },
+  {
+    "run_id": "20260716_054353_arm_108be4f5",
+    "previous_run_id": "20260716_054235_arm_108be4f5",
+    "changes": []
+  },
+  {
+    "run_id": "20260717_221155_arm_a1545c32",
+    "previous_run_id": "20260716_054353_arm_108be4f5",
+    "changes": [
+      {
+        "field": "controller.gripper_close_time",
+        "before": 0.85,
+        "after": 0.7
+      },
+      {
+        "field": "controller.place_settle_time",
+        "before": 0.7,
+        "after": 0.55
+      },
+      {
+        "field": "controller.state_hold_time",
+        "before": 0.95,
+        "after": 0.7
+      },
+      {
+        "field": "floor_friction",
+        "before": 0.45,
+        "after": 0.8
+      },
+      {
+        "field": "object_color.b",
+        "before": 0.9,
+        "after": 0.12
+      },
+      {
+        "field": "object_color.g",
+        "before": 0.25,
+        "after": 0.18
+      },
+      {
+        "field": "object_color.r",
+        "before": 0.05,
+        "after": 0.88
+      },
+      {
+        "field": "object_position.z",
+        "before": 0.13,
+        "after": 0.115
+      },
+      {
+        "field": "object_shape",
+        "before": "cylinder",
+        "after": "box"
+      },
+      {
+        "field": "object_size.x",
+        "before": 0.08,
+        "after": 0.07
+      },
+      {
+        "field": "object_size.y",
+        "before": 0.08,
+        "after": 0.07
+      },
+      {
+        "field": "object_size.z",
+        "before": 0.1,
+        "after": 0.07
+      },
+      {
+        "field": "static_props",
+        "before": [
+          {
+            "name": "shelf",
+            "shape": "box",
+            "position": {
+              "x": 0.0,
+              "y": 0.28,
+              "z": 0.105
+            },
+            "size": {
+              "x": 0.22,
+              "y": 0.06,
+              "z": 0.05
+            },
+            "color": {
+              "r": 0.4,
+              "g": 0.42,
+              "b": 0.48,
+              "a": 1.0
+            },
+            "collision": true
+          }
+        ],
+        "after": []
+      },
+      {
+        "field": "target_position.x",
+        "before": 0.25,
+        "after": 0.22
+      },
+      {
+        "field": "target_position.y",
+        "before": 0.2,
+        "after": 0.18
+      },
+      {
+        "field": "task_description",
+        "before": "창고 안에서 파란 원통을 오른쪽 뒤로 천천히 옮기고 미끄러운 바닥에서 조금 위에서 떨어뜨려. 옆에는 낮은 선반을 둬.",
+        "after": "빨간 상자를 들어올렸다가 다시 그대로 내려놓아."
+      }
+    ]
+  }
+]

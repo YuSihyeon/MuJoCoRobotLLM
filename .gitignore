@@ -1,0 +1,7 @@
+local/
+originals/
+private/
+.env
+.env.*
+__pycache__/
+**/source-map.json

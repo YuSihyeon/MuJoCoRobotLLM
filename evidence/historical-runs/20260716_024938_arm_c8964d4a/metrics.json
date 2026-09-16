@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "terminated": true,
+  "truncated": false,
+  "termination_reason": "success",
+  "simulation_time": 3.299999999999858,
+  "wall_clock_time": 0.08869509999931324,
+  "final_object_target_distance": 0.025512989351639738,
+  "minimum_object_target_distance": 0.0011866180471316347,
+  "physics_steps": 1650,
+  "controller_state": "SUCCESS",
+  "assisted_grasp": false,
+  "constraint_grasp": true,
+  "stability_status": "stable"
+}

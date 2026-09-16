@@ -1,0 +1,467 @@
+[
+  {
+    "path": "Content/Maps/PandaLLMMap.umap",
+    "bytes": 146163,
+    "sha256": "fb2f15914fac984363a074abe30d7c131a7aefb638d7fc225dd1c73eb53cbc72"
+  },
+  {
+    "path": "Content/Maps/RobotLabMap.umap",
+    "bytes": 65870,
+    "sha256": "495c04c1be02de8095b7c9bc16d61e3208c51e13016b54d4a26daaeb8ffd79bc"
+  },
+  {
+    "path": "Content/Robots/diffbot.uasset",
+    "bytes": 57526,
+    "sha256": "a5c5810910893468a1125db3c8f7da2d663e9fa74db4ead7ec0f0fb211f92b9f"
+  },
+  {
+    "path": "Content/RobotArms/Panda/panda.uasset",
+    "bytes": 515239,
+    "sha256": "fc34bb2aeed95623a8cdc152d27371862442acea0c5da48c5f40240e8b1501d2"
+  },
+  {
+    "path": "Content/MuJoCoImports/diffbot_ue_Assets/MI_caster.uasset",
+    "bytes": 5163,
+    "sha256": "dcdc294e829016bfe73b2bc7ef11d9a331a4ce7a8ef7366f056608f085c2b1d0"
+  },
+  {
+    "path": "Content/MuJoCoImports/diffbot_ue_Assets/MI_chassis.uasset",
+    "bytes": 5168,
+    "sha256": "05eed50b5e0fcb47909b93927047e7a4c3ae99eda8f1f96b15c998745870a2fe"
+  },
+  {
+    "path": "Content/MuJoCoImports/diffbot_ue_Assets/MI_left_wheel_geom.uasset",
+    "bytes": 5208,
+    "sha256": "9ef3b2d00895867d5d1f9c15e94db7e36544c793610aa7bbba2bde34956e5733"
+  },
+  {
+    "path": "Content/MuJoCoImports/diffbot_ue_Assets/MI_right_wheel_geom.uasset",
+    "bytes": 5213,
+    "sha256": "53cdea151fb18f1393a8b35db4d4be0400267c7d509be862daea56556107c95b"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_black.uasset",
+    "bytes": 5154,
+    "sha256": "c6f731cc541e2a37dc6d540f66d30b9cb52b717873c5ab44d920d19ee7f2d9d3"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_finger_0.uasset",
+    "bytes": 5165,
+    "sha256": "7f1e8d2e159c29d4e7426424ac54f935aa22ccc13559922d45d928d803104071"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_Geom_Box.uasset",
+    "bytes": 5169,
+    "sha256": "19e753b8c4a3aa47d806939aa43e2fdd81f2f911766b9f059c126d3404b9e275"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_green.uasset",
+    "bytes": 5154,
+    "sha256": "f75ef1119c7d0797ec247a469d0c2b0743f49cab21a4bd05a3b96fa3dc884d11"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_hand_c.uasset",
+    "bytes": 5159,
+    "sha256": "f7543a9aad75a42b22e6223bdbbd9d63e37f6c500cac428060ae01f56ab0e089"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_light_blue.uasset",
+    "bytes": 5179,
+    "sha256": "23006351d001630ccccb3f79220a12c4d5a02a70acc176418515fa90faa703d2"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link0_c.uasset",
+    "bytes": 5164,
+    "sha256": "5285f74b18eb640060125d3e605fa1bec1fcf6a3120c710a08823889e0b1a641"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link1_c.uasset",
+    "bytes": 5164,
+    "sha256": "75cbad9ed63b8c66c8199c82f419648cc148c8faae42958c36069555029d88f4"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link2_c.uasset",
+    "bytes": 5164,
+    "sha256": "33a650dd4a526dd0a5b3bd8bb5a38c5580791ce915de9319db9c16bbe58057ed"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link3_c.uasset",
+    "bytes": 5164,
+    "sha256": "d36dbb8b46c1513c30552854282a6331084ddb753f2fc4610cb8b586c136c107"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link4_c.uasset",
+    "bytes": 5164,
+    "sha256": "0ba87bb2d68a3585af8990a2acf89d5c4274ff2a13de6222b629b7fac3e84679"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link5_c0.uasset",
+    "bytes": 5169,
+    "sha256": "629d7b48daa3d10e76162579b0f9923258d554a813b82284540fa3be49ed3877"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link5_c1.uasset",
+    "bytes": 5169,
+    "sha256": "def86d3521fc254706d66529fc869b5888329674f35710e391904c4b827a14ae"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link5_c2.uasset",
+    "bytes": 5169,
+    "sha256": "ef80e3aedf6a5264e796e7eeb29e0cd201e20185bc2ca2341482f8019e3ddf7d"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link6_c.uasset",
+    "bytes": 5164,
+    "sha256": "8af797e4458c659a545f269f496c1cf42a59cf413f057ebbf8ab60871905b5aa"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_link7_c.uasset",
+    "bytes": 5164,
+    "sha256": "b9465e10cd1b32d7bd78ee5dc9be27b7dc5bc113415dcf18cc866f165086b46e"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_off_white.uasset",
+    "bytes": 5174,
+    "sha256": "380f1639d8ec1cf8d814ecf6e2f3cb77d8c18024064feb87d3a6a7059b476c74"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/MI_white.uasset",
+    "bytes": 5154,
+    "sha256": "4b35cdb4df34aee365259402cd33e848c940ce392bbb0ffa99e18d46d5a45b57"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_7/StaticMeshes/link7_7.uasset",
+    "bytes": 125813,
+    "sha256": "dfbb6008c6cb35c633ec05cfd005a078a81304386dc2e49364e703b8f5c5dfa6"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_6/StaticMeshes/link7_6.uasset",
+    "bytes": 79328,
+    "sha256": "f10d9efd6e75655601b12df689076b8dcd7c21ac7db1b93dfb4a484038c14a5d"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_5/StaticMeshes/link7_5.uasset",
+    "bytes": 87127,
+    "sha256": "f9de1cec3c8173ee48898322b56a16f47ad57839cc61c1d578546ac4478dbb9a"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_4/StaticMeshes/link7_4.uasset",
+    "bytes": 77870,
+    "sha256": "3e61182548a0f211bf5500f98196285089ed55234edcb3da9a8a765b149a0f05"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_3/StaticMeshes/link7_3.uasset",
+    "bytes": 80730,
+    "sha256": "061e45dd28eda2cdbef2973cea61fef0dc70daa615934274e2ee0bce85f14ea5"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_2/StaticMeshes/link7_2.uasset",
+    "bytes": 85633,
+    "sha256": "58c1faab5f036140f1f1d3b035802d8093768ab9c05bacc5c9781d435d1c8eda"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_1/StaticMeshes/link7_1.uasset",
+    "bytes": 80589,
+    "sha256": "ae12db5a8e8eaba100b8643c5dac2adb286dc95b8a77b2cf9932359d1b38e418"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7_0/StaticMeshes/link7_0.uasset",
+    "bytes": 160123,
+    "sha256": "521a1eca021f2f8a131d1dc2b01f6db1409a3b6e20028fc2d38665a70bc380f0"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link7/StaticMeshes/link7.uasset",
+    "bytes": 77402,
+    "sha256": "97759b67cbdbc051c753a1d0c14001eb5938f1a8f5ccca5ed299cffa889819bf"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_9/StaticMeshes/link6_9.uasset",
+    "bytes": 73619,
+    "sha256": "12d5c89db916ac7c4f21980d170908738eb97b11a2e0ac8e588ebdcc04d5a458"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_8/StaticMeshes/link6_8.uasset",
+    "bytes": 72528,
+    "sha256": "8488c377172aedc54420b5dea1a3633fb2029883e76cf9354e8babf0dff0707a"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_7/StaticMeshes/link6_7.uasset",
+    "bytes": 71978,
+    "sha256": "f09584820c7d907f3613d2c20101744f69e7e26a6c1fd2f6066e78ae52c0d2c7"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_6/StaticMeshes/link6_6.uasset",
+    "bytes": 72679,
+    "sha256": "c0201b613335ab41475a1cf081e2b5af926232f968b529d990e088ed333fcbed"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_5/StaticMeshes/link6_5.uasset",
+    "bytes": 72644,
+    "sha256": "a34ad33c8d226e7e29881f2bf0cab36af78fa280a78c99d19e14fc3bbed47c1b"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_4/StaticMeshes/link6_4.uasset",
+    "bytes": 72729,
+    "sha256": "d6370067f5d5a7317ee93181ab2fd6a19745424c1fbf238fe52bef67722928c4"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_3/StaticMeshes/link6_3.uasset",
+    "bytes": 72713,
+    "sha256": "c09bdb519795cce6c1dd36438a67b5d8d07623ddde3eaa8bc840c887f56bc68c"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_2/StaticMeshes/link6_2.uasset",
+    "bytes": 73618,
+    "sha256": "e1553cfaae4fdd4cb2eb4d2ee6fe7fa4e55bf7d8980185a04ac2d01f29917798"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_16/StaticMeshes/link6_16.uasset",
+    "bytes": 280192,
+    "sha256": "b4922d3e4d92bfe72090d6491a9f7a1043e06aada3b47580868c9fd4f8831c66"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_15/StaticMeshes/link6_15.uasset",
+    "bytes": 118758,
+    "sha256": "f1a5ddedfff0d5f350d47b7f229180721f2019e0937b4ce9904134ab1caace77"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_14/StaticMeshes/link6_14.uasset",
+    "bytes": 105600,
+    "sha256": "3bf3f396dfc025604578f89ffff24d6b444fc9c8810d1ef3d1fb60dae0e6e69f"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_13/StaticMeshes/link6_13.uasset",
+    "bytes": 72300,
+    "sha256": "6d903bbbf4b10703e2c8cd742f64b41fb0419df6dcef86491930c45c6097e3c4"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_12/StaticMeshes/link6_12.uasset",
+    "bytes": 72123,
+    "sha256": "a1b6bf2d95e9b8071e587aebda57d200d50c33350793a8642ba7b58f8624174e"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_11/StaticMeshes/link6_11.uasset",
+    "bytes": 74247,
+    "sha256": "1e96dd1a3650397f3e5b93df2dde0091bfa1115817b83df8a51319c89b0e6dc2"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_10/StaticMeshes/link6_10.uasset",
+    "bytes": 100039,
+    "sha256": "f837061859b688b9259191d5f48df4d5c229b60df90db50793aaf694331add85"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_1/StaticMeshes/link6_1.uasset",
+    "bytes": 74406,
+    "sha256": "c06a595a587df9ced811a8332addf67b2e9d5b7fec62a386974008ded769502d"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6_0/StaticMeshes/link6_0.uasset",
+    "bytes": 85657,
+    "sha256": "de2902e24289ef321da6e646cb7574a78925e0c7e86a4549bb2b3e80b444f97e"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link6/StaticMeshes/link6.uasset",
+    "bytes": 78376,
+    "sha256": "9eea6e872c94939e6300ae02556245a93bcbe516ee03a5b6f2318c1c5ee65902"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link5_collision_2/StaticMeshes/link5_collision_2.uasset",
+    "bytes": 75999,
+    "sha256": "f00410f6e7347ae9108e67658dbdd7e64174cf07d1b939c117c34acb552089be"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link5_collision_1/StaticMeshes/link5_collision_1.uasset",
+    "bytes": 74569,
+    "sha256": "1631672208e602edc95c615925429f71f5253e169ec63ee0f8db02bf4cdefa48"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link5_collision_0/StaticMeshes/link5_collision_0.uasset",
+    "bytes": 76037,
+    "sha256": "ff8ddb951a711fd774826477273cec3c66aac417aabc31815a38d9f2675172f9"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link5_2/StaticMeshes/link5_2.uasset",
+    "bytes": 333856,
+    "sha256": "1315999413f99fc8de68341866e14779b36867b12244fe1f4b83fc8d4c709a4f"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link5_1/StaticMeshes/link5_1.uasset",
+    "bytes": 77402,
+    "sha256": "20485dbfad6931967ea5abbe975329080d95ce6ae4466a3f3b0a8a7405f9d95d"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link5_0/StaticMeshes/link5_0.uasset",
+    "bytes": 134462,
+    "sha256": "3fba53007079376ba03ad683ebea7db7a1e4a6bf9a0455b080461c6b8df32fb2"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link4_3/StaticMeshes/link4_3.uasset",
+    "bytes": 76868,
+    "sha256": "948caf9427c614d3dd5e07d0aba96760ae28d163fb61198315cb173a68511b31"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link4_2/StaticMeshes/link4_2.uasset",
+    "bytes": 105208,
+    "sha256": "d9306848aaaa99df10d69242f00d6b958db07d81719bf8a334c0db7b2ba102dc"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link4_1/StaticMeshes/link4_1.uasset",
+    "bytes": 269381,
+    "sha256": "193fe01af2234df931a89238b973378861242ab8c20f0bfa02fbaa4416b5c37b"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link4_0/StaticMeshes/link4_0.uasset",
+    "bytes": 77992,
+    "sha256": "c97f11e176f761988b83bd51e5c38365c5ae5550e7ee3ba72c91c03b04769029"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link4/StaticMeshes/link4.uasset",
+    "bytes": 80996,
+    "sha256": "cb4dab518c44ba5edd7b915133ea376cb336978eee0031dcb877dd1b20af05ab"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link3_3/StaticMeshes/link3_3.uasset",
+    "bytes": 105287,
+    "sha256": "26d68caa7ef2580b36869d869db40c533f8f3c73e40c163a1829f713f90a2ae7"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link3_2/StaticMeshes/link3_2.uasset",
+    "bytes": 78028,
+    "sha256": "a0f4d73f219680c5bfc5733b730b9d6cf127ebd26cde30254b1ab899f524d154"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link3_1/StaticMeshes/link3_1.uasset",
+    "bytes": 76797,
+    "sha256": "75c358d73928f72520ba07e6b48dbe03f3bc467e6c19a388997706b551a7d707"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link3_0/StaticMeshes/link3_0.uasset",
+    "bytes": 305583,
+    "sha256": "1a67636bd9e84c23be6b7965ef0a39fc1c49ce15248364b8c2bf5826c5386cec"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link3/StaticMeshes/link3.uasset",
+    "bytes": 80963,
+    "sha256": "08e0f1c55805c15f29a26f9d89d3ad95f6a9a10e1303b3e21449750880f8c970"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link2_1/StaticMeshes/link2_1.uasset",
+    "bytes": 282817,
+    "sha256": "3652683eb2e268219a7df4b52a5c64ee58cfb385b0ee829fcf7c136b74539163"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link2/StaticMeshes/link2.uasset",
+    "bytes": 80581,
+    "sha256": "a107c9cbc9a750a51451a37e3d784f9bc163fbd7719f7d9ff4f76d6cd0561a71"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link1_1/StaticMeshes/link1_1.uasset",
+    "bytes": 242095,
+    "sha256": "11738f4abe00e6938f3bfa768f2625323d099248c0bb2d0999e2f53353125ff3"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link1/StaticMeshes/link1.uasset",
+    "bytes": 80745,
+    "sha256": "6438085a7d51467bafcd95c58c06352dc547f3c76f20614888e03ae6bb013e9d"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_9/StaticMeshes/link0_9.uasset",
+    "bytes": 79015,
+    "sha256": "20d18862e9cb767a17bc1999548edb0f336de5f5843cd7709546f1b52f147ac4"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_8/StaticMeshes/link0_8.uasset",
+    "bytes": 336411,
+    "sha256": "2dda54e1c9617c944355f18b14079324cb1a0e81b8cc484dd307b998230db031"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_7/StaticMeshes/link0_7.uasset",
+    "bytes": 74408,
+    "sha256": "1a2f03da9dbe6d62c1f2509edbe4d8a1197245e44806863fe02b1984f85916d5"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_5/StaticMeshes/link0_5.uasset",
+    "bytes": 73143,
+    "sha256": "375498e06f012a380cc18f72fb29aa4bdd2707f266d9b33bc01bf395cbfbbf32"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_4/StaticMeshes/link0_4.uasset",
+    "bytes": 88242,
+    "sha256": "209960a557b9f5be30965bc99d122e18d99533a1b343daa4e13eddcd89a8f2dc"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_3/StaticMeshes/link0_3.uasset",
+    "bytes": 75314,
+    "sha256": "3fe54d5ba3cc5211f52f21da08ce265228d91eeff116288ca712b67bde9f307e"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_2/StaticMeshes/link0_2.uasset",
+    "bytes": 113075,
+    "sha256": "9b4779fe5f671cb84adc519bba311f609716cbf3ed076b98ee6a9fbe9059f087"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_11/StaticMeshes/link0_11.uasset",
+    "bytes": 73943,
+    "sha256": "1ee0a4645e553345c629258afa5064c6e76378f3661091cd4a9e2bacedac6375"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_10/StaticMeshes/link0_10.uasset",
+    "bytes": 88506,
+    "sha256": "72ce500b5abc0a7ed3f2457c9ce6d5faf7acb7833bd8f2300ed39d8a7ecef43f"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_1/StaticMeshes/link0_1.uasset",
+    "bytes": 79478,
+    "sha256": "ae92cb466acc178e6877be85c68874656bf0818489c55c3f86edee88456c0f47"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0_0/StaticMeshes/link0_0.uasset",
+    "bytes": 92168,
+    "sha256": "8e688fe488ad34cea7ff19fc6aff97312537c4b217589e500f9f43039ee8a276"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/link0/StaticMeshes/link0.uasset",
+    "bytes": 78105,
+    "sha256": "28c2f08a846b2c5af8e8ae6d38abf1466e65435211a0f57fe34e970b547ab438"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/hand_4/StaticMeshes/hand_4.uasset",
+    "bytes": 83179,
+    "sha256": "64cfaeb42a8e773d4aa5fa32bfcfd8176d64bc2914eebffe3df8f5f3a9c8ee80"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/hand_3/StaticMeshes/hand_3.uasset",
+    "bytes": 128563,
+    "sha256": "d12b3293cbea6d0c0f5ccbb789b1f69706d41f0bc53db777aa55d197882a36ce"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/hand_2/StaticMeshes/hand_2.uasset",
+    "bytes": 112571,
+    "sha256": "1a98792b833e517dda65c8f30685068edbf93006bf77d80b2a022ba3bb9c1e5d"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/hand_1/StaticMeshes/hand_1.uasset",
+    "bytes": 80652,
+    "sha256": "4fcefe709a0aef6c459889098c7300bb0a6a8f2852141ed89e6fb40961b27ecd"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/hand_0/StaticMeshes/hand_0.uasset",
+    "bytes": 73122,
+    "sha256": "12e2bf8da20983b3607b38bf7a5b8a0fcae159d6c13e8255e9287f52a2648794"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/hand/StaticMeshes/hand.uasset",
+    "bytes": 77468,
+    "sha256": "c3f817a53c2c130c66f523d2fd1cda44927ff59573f2176e58b33e2d9f017705"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/finger_1/StaticMeshes/finger_1.uasset",
+    "bytes": 76132,
+    "sha256": "94cb9c8a0d8effc703361665f60c83429c17964bde938f5ff35ec24da8685ced"
+  },
+  {
+    "path": "Content/MuJoCoImports/panda_ue_Assets/Meshes/finger_0/StaticMeshes/finger_0.uasset",
+    "bytes": 78028,
+    "sha256": "d7944e36380d03c4c8f34e56cb3a298d27f933ad5b08670662d9ec6e6edac171"
+  }
+]
