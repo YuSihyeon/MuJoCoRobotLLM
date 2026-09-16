@@ -1,8 +1,10 @@
 # 전체 데이터와 복원 범위
 
-이 저장소는 MuJoCo 로봇 조작과 **Unreal Engine 5.7 + Panda + LLM** 연구의 공개 기록이다. 공개 `evidence/`는 검토를 위한 선별 자료다. PC 초기화에 대비한 별도 비공개 `ResearchCollection/03-MuJoCoRobotLLM/` 묶음은 전체 원 프로젝트, Git 변경, 에셋, 환경, 원본 영상을 보존 대상으로 삼는다. Unity 연동이나 실물 로봇 제어를 복원하는 패키지는 아니다.
+**2026-09-16 최종 보존 상태:** 조사한 Windows 연구 원본과 WSL 전체 export, 연구별 직접 추출본, conda·Unity·Unreal 환경 archive의 로컬 내용 검증을 마쳤다. USB 전송·외부 사본 검증과 초기화 후 전체 실행은 아직 수행하지 않았다. 실제 복사 목록·해시·확인하지 못한 자료는 개인 보존 묶음의 `PRESERVATION_STATUS.md`와 `_control/manifests/`를 기준으로 확인한다.
 
-아래 경로는 비공개 컬렉션 안의 배치 계약이다. 공개 GitHub 저장소를 clone해도 `originals/`와 공유 환경이 내려오지 않는다. 문서 작성일은 2026-09-16이며, 원본 존재를 조사한 결과와 복사 계획을 설명한다. **복사 완료·바이트 검증·초기화 후 실행 성공·USB 보관 완료를 선언하지 않는다.** 실제 상태는 컬렉션의 `_control` 기록을 따른다.
+이 저장소는 MuJoCo 로봇 조작과 **Unreal Engine 5.7 + Panda + LLM** 연구의 공개 기록이다. 공개 `evidence/`는 검토를 위한 선별 자료다. PC 초기화에 대비한 별도 비공개 `ResearchCollection/03-MuJoCoRobotLLM/` 묶음은 전체 원 프로젝트, Git 변경, 에셋, 환경, 원본 영상을 보존했다. Unity 연동이나 실물 로봇 제어를 복원하는 패키지는 아니다.
+
+최종 복사·검증 범위와 아직 남은 외부 보관·실행 검증은 아래 최종 상태와 개인 보존 묶음의 관리 기록을 확인한다.
 
 ## 원본 묶음의 구성
 
