@@ -1,6 +1,6 @@
-# 연구 영상 갤러리
+# 연구 영상과 설명
 
-[브라우저에서 영상 재생](https://YuSihyeon.github.io/MuJoCoRobotLLM/gallery.html) · [전체 연구 정리](../README.md)
+[전체 연구 정리](../README.md)
 
 기존 영상 원본은 Release에서 내려받을 수 있고, 저장소에는 재생용 H.264 및 VP9 미리보기를 보관합니다. 원본 이름·길이·크기·SHA-256은 [video-manifest.json](video-manifest.json), WebM 파생본은 WebM 미리보기에 있습니다. 미리보기는 크기를 줄인 파생 파일이며 원본을 대체하지 않습니다.
 
@@ -58,4 +58,3 @@ MuJoCo 창에서 빨간 물체를 목표 영역으로 옮기는 기존 시연입
 원본 `MuJoCo_test2.mp4` · 34.07초 · 2458×1746 · 30 FPS
 
 [미리보기 MP4](../media/previews/mujoco-test2.mp4) · [원본 다운로드](https://github.com/YuSihyeon/MuJoCoRobotLLM/releases/download/research-media-2026-09-16/mujoco-test2.mp4) · [연구 보고서](../README.md)
-

@@ -1,11 +1,23 @@
 # MuJoCo 로봇팔·자연어 제어 연구 아카이브
 
 
-**독립 연구 저장소:** [GitHub](https://github.com/YuSihyeon/MuJoCoRobotLLM) · [전체 데이터와 복원 범위](DATA_AND_RESTORE.md) · [영상 갤러리](https://yusihyeon.github.io/MuJoCoRobotLLM/gallery.html)
+**독립 연구 저장소:** [GitHub](https://github.com/YuSihyeon/MuJoCoRobotLLM) · [전체 데이터와 복원 범위](DATA_AND_RESTORE.md)
 
 이 연구는 **자연어를 제한된 데이터 구조로 해석한 뒤, 검증 가능한 제어기로 로봇을 움직이는 과정**을 탐색했다. 확인된 구현은 ① 독립 MuJoCo의 장면 생성·집기/놓기와 ② **Unreal Engine 5.7 + Unreal Robotics Lab + Panda + Python/LLM**의 두 계열이다. 폴더 식별자에는 초기 분류명 `unity`가 남아 있지만, 이 자료를 Unity 구현으로 소개하면 부정확하다. 로봇팔과 연결된 Unity 프로젝트·통신 코드는 조사 범위에서 확인하지 못했다.
 
 2026-09-16에 보존된 로컬 소스, 설계문서, Git 상태, 실행 산출물을 대조했다. **과거 실행 기록**, **현재 코드에 구현된 기능**, **아직 검증하지 못한 주장**, **후속 개선 제안**을 구분한다. 관련 연구는 각각 독립 저장소로 정리했으며 이 저장소는 해당 연구의 기록만 다룬다.
+
+## 영상과 설명
+
+영상 제목이나 미리보기를 누르면 해당 MP4 파일을 열 수 있습니다.
+
+| 영상 | 설명 |
+|---|---|
+| [**Panda 로봇팔 · 수동 제어**](media/previews/robot-manual.mp4)<br>[![Panda 로봇팔 · 수동 제어 미리보기](media/robot-manual-poster.jpg)](media/previews/robot-manual.mp4) | 13.93초. Unreal RobotLLM 화면과 Python 명령 콘솔에서 관절·그리퍼 조작을 확인합니다. [원본 MP4](https://github.com/YuSihyeon/MuJoCoRobotLLM/releases/download/research-media-2026-09-16/robot-manual.mp4) |
+| [**Panda 로봇팔 · 명령 제어**](media/previews/robot-command.mp4)<br>[![Panda 로봇팔 · 명령 제어 미리보기](media/robot-command-poster.jpg)](media/previews/robot-command.mp4) | 37.30초. 정해진 명령을 입력해 자세를 바꾸는 단계로, 규칙 기반 제어입니다. [원본 MP4](https://github.com/YuSihyeon/MuJoCoRobotLLM/releases/download/research-media-2026-09-16/robot-command.mp4) |
+| [**Panda 로봇팔 · LLM 계획 및 실행**](media/previews/robot-llm.mp4)<br>[![Panda 로봇팔 · LLM 계획 및 실행 미리보기](media/robot-llm-poster.jpg)](media/previews/robot-llm.mp4) | 70.30초. 초반은 로봇을 움직이지 않는 계획 검사이며 API quota 오류와 미지원 명령 거부가 포함됩니다. 후반의 실제 제어 실행과 구분합니다. [원본 MP4](https://github.com/YuSihyeon/MuJoCoRobotLLM/releases/download/research-media-2026-09-16/robot-llm.mp4) |
+| [**Text2MuJoCo · 집기와 놓기**](media/previews/mujoco-test1.mp4)<br>[![Text2MuJoCo · 집기와 놓기 미리보기](media/mujoco-test1-poster.jpg)](media/previews/mujoco-test1.mp4) | 18.87초. MuJoCo에서 빨간 물체를 목표 영역으로 옮기는 시연입니다. 영상만으로 assist 사용 여부를 확정할 수 없습니다. [원본 MP4](https://github.com/YuSihyeon/MuJoCoRobotLLM/releases/download/research-media-2026-09-16/mujoco-test1.mp4) |
+| [**Text2MuJoCo · 채팅 입력과 실행**](media/previews/mujoco-test2.mp4)<br>[![Text2MuJoCo · 채팅 입력과 실행 미리보기](media/mujoco-test2-poster.jpg)](media/previews/mujoco-test2.mp4) | 34.07초. 조사 중 추가로 확인한 영상으로, 채팅 입력 화면과 MuJoCo 동작을 함께 보여줍니다. [원본 MP4](https://github.com/YuSihyeon/MuJoCoRobotLLM/releases/download/research-media-2026-09-16/mujoco-test2.mp4) |
 
 ## 1. 확인된 성과와 범위
 
@@ -184,7 +196,7 @@ bridge는 [URLab-Sim/urlab_bridge](https://github.com/URLab-Sim/urlab_bridge), �
 
 ### 영상 증거와 수치 증거의 역할
 
-사용자가 제공한 [수동 제어](media/README.md#robot-manual), [명령 제어](media/README.md#robot-command), [LLM 제어](media/README.md#robot-llm), [MuJoCo test1](media/README.md#mujoco-test1)은 이 저장소의 미디어 자료에서 다룬다. [오프라인 영상 갤러리](gallery.html)에서도 볼 수 있다. 영상 검토에서는 엔진 화면이 Unreal로 확인되었다. LLM 영상 초반에는 `llm_test.py`의 계획만 검증하는 구간과 API quota 오류, unknown 거부가 나오고, “오른쪽으로 조금 움직인 다음 집게를 닫아”를 `right, close`로 변환하는 장면이 관찰된다. 이 구간은 프로그램 스스로 로봇을 움직이지 않는 시험이라고 표시한다. 후반의 `panda_llm.py` 실제 제어 구간과 분리해 설명해야 한다.
+사용자가 제공한 [수동 제어](media/README.md#robot-manual), [명령 제어](media/README.md#robot-command), [LLM 제어](media/README.md#robot-llm), [MuJoCo test1](media/README.md#mujoco-test1)은 이 저장소의 미디어 자료에서 다룬다. README 앞부분의 영상 목록에서도 직접 열 수 있다. 영상 검토에서는 엔진 화면이 Unreal로 확인되었다. LLM 영상 초반에는 `llm_test.py`의 계획만 검증하는 구간과 API quota 오류, unknown 거부가 나오고, “오른쪽으로 조금 움직인 다음 집게를 닫아”를 `right, close`로 변환하는 장면이 관찰된다. 이 구간은 프로그램 스스로 로봇을 움직이지 않는 시험이라고 표시한다. 후반의 `panda_llm.py` 실제 제어 구간과 분리해 설명해야 한다.
 
 영상은 사용 흐름과 동작 관찰의 근거다. 영상만으로 정확한 추종 오차, 비상 정지 지연, 모든 명령 성공률을 계산하지 않았다. 독립 MuJoCo의 metrics와 Unreal Panda 동영상을 동일 run의 데이터로 연결할 근거도 없다.
 

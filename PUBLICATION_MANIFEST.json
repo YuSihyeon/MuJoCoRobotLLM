@@ -16,13 +16,13 @@
   },
   {
     "path": "DATA_AND_RESTORE.md",
-    "bytes": 8335,
-    "sha256": "36f98a736ceb9f0477e16630c1fef5afb3c385a1b0336814a9c9b0e7ba167e5e"
+    "bytes": 8339,
+    "sha256": "dcc5df5b1731dbe24f83fc82e8ef6884de636802aa0fc3996da2ff9d427f7a88"
   },
   {
     "path": "README.md",
-    "bytes": 33352,
-    "sha256": "4cdbb89278cb0e219245ec2467a8e0a6f34528459bf86eecf56e283d0dcba072"
+    "bytes": 35685,
+    "sha256": "b4d418af593873a641ed6641d9bcbe22c3325703bb5321e420ec7793a0b52812"
   },
   {
     "path": "evidence/.gitignore",
@@ -940,19 +940,9 @@
     "sha256": "fafffef5d9192d4c06875fc02d839af39dba746e90ab93f15aaa3a7752e1722e"
   },
   {
-    "path": "gallery.html",
-    "bytes": 5339,
-    "sha256": "e7dd9475c37f9624ad4e20e882d5a5321ed0a2febc66aa5ec58b9d0ac77969f5"
-  },
-  {
-    "path": "index.html",
-    "bytes": 156,
-    "sha256": "5772c06603ab12a0445bdf5b281526a5d107ab374e74bb88ae8074b0fc98740f"
-  },
-  {
     "path": "media/README.md",
-    "bytes": 3634,
-    "sha256": "5ea1b387a189dbbb4884725597ba1851a2496b675c2d059e96d0f4da9a0e88f0"
+    "bytes": 3537,
+    "sha256": "c7aa67f94fd30f20b69d8bcadd3d22ed521052fbc107b94561a4a2d7296b69c3"
   },
   {
     "path": "media/mujoco-test1-poster.jpg",
